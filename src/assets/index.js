@@ -1,0 +1,17 @@
+export { default as prod1 } from "./image-product-1.jpg";
+export { default as prod2 } from "./image-product-2.jpg";
+export { default as prod3 } from "./image-product-3.jpg";
+export { default as prod4 } from "./image-product-4.jpg";
+export { default as prod1thumb } from "./image-product-1-thumbnail.jpg";
+export { default as prod2thumb } from "./image-product-2-thumbnail.jpg";
+export { default as prod3thumb } from "./image-product-3-thumbnail.jpg";
+export { default as prod4thumb } from "./image-product-4-thumbnail.jpg";
+export { default as avatar } from "./image-avatar.jpg";
+export { default as cartIco } from "./icon-cart.jpg";
+export { default as closeIco } from "./icon-close.jpg";
+export { default as deleteIco } from "./icon-delete.jpg";
+export { default as menuIco } from "./icon-menu.jpg";
+export { default as minusIco } from "./icon-minus.jpg";
+export { default as nextIco } from "./icon-next.jpg";
+export { default as plusIco } from "./icon-plus.jpg";
+export { default as prevIco } from "./icon-previous.jpg";
