@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import ProdDetail from "./ProdDetail";
+import ProdLightBox from "./ProdLightBox";
 
 const Product = () => {
-  return (
-    <div>Product</div>
-  )
-}
+	return (
+		<div className="flex flex-wrap mx-auto my-10 w-fit">
+			<ProdLightBox />
+			<ProdDetail />
+		</div>
+	);
+};
 
-export default Product
+export default Product;
