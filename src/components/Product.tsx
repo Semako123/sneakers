@@ -4,7 +4,7 @@ import ProdLightBox from "./ProdLightBox";
 
 const Product = () => {
 	return (
-		<div className="flex flex-wrap mx-auto my-10 w-fit">
+		<div className="flex flex-wrap my-10 justify-evenly">
 			<ProdLightBox />
 			<ProdDetail />
 		</div>
