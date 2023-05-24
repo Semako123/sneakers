@@ -8,6 +8,7 @@ export { default as prod3thumb } from "./image-product-3-thumbnail.jpg";
 export { default as prod4thumb } from "./image-product-4-thumbnail.jpg";
 export { default as avatar } from "./image-avatar.png";
 export { default as cartIco } from "./icon-cart.svg";
+export { default as cartIco2 } from "./icon-cart2.svg";
 export { default as closeIco } from "./icon-close.svg";
 export { default as deleteIco } from "./icon-delete.svg";
 export { default as menuIco } from "./icon-menu.svg";
