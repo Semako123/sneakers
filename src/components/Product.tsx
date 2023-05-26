@@ -1,12 +1,26 @@
-import React from "react";
 import ProdDetail from "./ProdDetail";
-import ProdLightBox from "./ProdLightBox";
+import { MobileLightBox, ProdLightBox } from ".";
+import { cartInterface } from "../App";
 
-const Product = () => {
+interface productInterface {
+	setHighLightBox: React.Dispatch<React.SetStateAction<boolean>>;
+	setCart: React.Dispatch<React.SetStateAction<cartInterface[]>>;
+	windowWidth: number;
+}
+
+const Product = ({
+	setHighLightBox,
+	setCart,
+	windowWidth,
+}: productInterface) => {
 	return (
-		<div className="flex flex-wrap my-10 justify-evenly">
-			<ProdLightBox />
-			<ProdDetail />
+		<div className="flex flex-wrap sm:my-16 justify-evenly h-full items-center">
+			{windowWidth > 441 ? (
+				<ProdLightBox setHighLightBox={setHighLightBox} />
+			) : (
+				<MobileLightBox />
+			)}
+			<ProdDetail setCart={setCart} />
 		</div>
 	);
 };

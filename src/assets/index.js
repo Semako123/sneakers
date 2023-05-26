@@ -10,6 +10,7 @@ export { default as avatar } from "./image-avatar.png";
 export { default as cartIco } from "./icon-cart.svg";
 export { default as cartIco2 } from "./icon-cart2.svg";
 export { default as closeIco } from "./icon-close.svg";
+export { default as closeIco2 } from "./icon-close2.svg";
 export { default as deleteIco } from "./icon-delete.svg";
 export { default as menuIco } from "./icon-menu.svg";
 export { default as minusIco } from "./icon-minus.svg";
